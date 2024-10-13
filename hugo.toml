@@ -1,0 +1,4 @@
+baseURL = 'https://pandosrealty.com/'
+languageCode = 'en-us'
+title = 'Pandos Realty'
+theme = 'ananke'
