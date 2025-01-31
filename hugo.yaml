@@ -1,5 +1,5 @@
 baseURL: ''
-title: TailBliss
+title: Pandos Realty
 languageCode: en-us
 DefaultContentLanguage: en
 enableEmoji: true
@@ -47,11 +47,11 @@ markup:
       xhtml: false
 
 params:
-  author: Nusser Studios
+  author: Travis Pandos 
   authorimage: ../assets/images/global/author.webp
   og_image: /images/tailbliss-cover.png
-  moto: "Super Fast, and Flexible"
-  description: "A Hugo theme built with love, using TailwindCSS 3, Alpine.JS, and Hugo Pipes. Images are optimized for use with Hugo Pipes for WebP format."
+  moto: "Taking the headache out of real estate transactions."
+  description: "With Pandos Realty, you can buy, sell, or invest in real estate with ease. Specializing in residential properties in Orange County, we're here to help you every step of the way."
   disable_theme_toggle: false
   disable_stay_uptodate: false
 
@@ -59,30 +59,46 @@ params:
     heading: "Our mission"
     image: "images/pages/our-mission.png"
     content:
-      - text: "Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique pellentesque. Blandit amet, sed aenean erat arcu morbi. Cursus faucibus nunc nisl netus morbi vel porttitor vitae ut. Amet vitae fames senectus vitae."
-      - text: "Sollicitudin tristique eros erat odio sed vitae, consequat turpis elementum. Lorem nibh vel, eget pretium arcu vitae. Eros eu viverra donec ut volutpat donec laoreet quam urna. Sollicitudin tristique eroserat odio sed vitae, consequat turpis elementum. Lorem nibh vel, eget pretium arcu vitae. Eros eu viverra donec ut volutpat donec laoreet quam urna."
-      - text: "Rhoncus nisl, libero egestas diam fermentum dui. At quis tincidunt vel ultricies. Vulputate aliquet velit faucibus semper. Pellentesque in venenatis vestibulum consectetur nibh id. In id ut tempus egestas. Enim sit aliquam nec, a. Morbi enim fermentum lacus in. Viverra."
+      - text: "Our mission is to revitalize communities by transforming distressed properties into modern, desirable homes. We believe that every neighborhood has the potential for renewal, and through our efforts, we breathe new life into overlooked properties, turning them into valuable assets for homeowners and the community."
+      - text: "Through strategic acquisitions, we identify properties with untapped potential and implement high-impact renovations that enhance both functionality and aesthetics. Our approach combines expert craftsmanship with market insights to ensure that each home meets the highest standards of quality and design."
+      - text: "By positioning these properties smartly in the market, we create substantial value for investors while fostering neighborhood growth. Our work goes beyond real estate... it strengthens communities, encourages local economic development, and provides beautiful, high-quality homes for families to enjoy."
   p2:
     heading: "Just in time for Hacktoberfest with JIT Tailwind."
     image: "images/pages/hacktoberfest.jpg"
     content:
       - text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at purus non enim commodo tincidunt vel in nulla. Aenean pretium dolor non ultricies bibendum. Etiam quis blandit enim. Nunc condimentum ut lorem in faucibus. Phasellus varius ligula et commodo tristique. Nunc sodales nisl nec laoreet vehicula. Donec velit nibh, sollicitudin at nulla a, egestas dignissim eros. Sed lacinia hendrerit interdum. Vestibulum pellentesque sem venenatis nisl tempor accumsan sit amet tempus felis. Mauris leo diam, porttitor nec bibendum id, tempus ac nulla. Etiam congue ornare erat at convallis. Donec in nisi dapibus, mattis risus vel, imperdiet enim. Donec fermentum sit amet tortor nec tincidunt. Nam nec lectus tortor. Nunc sit amet laoreet orci, porta ornare massa. Phasellus eget lorem mi. Nam eleifend ultricies sapien, quis mollis leo bibendum at. Quisque viverra lorem sit amet magna aliquet, et dignissim arcu eleifend."
   p3:
-    heading: "Backed by world-renowned investors"
+    heading: "Meet the Team"
     content:
-      - text: "Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique pellentesque. Blandit amet, sed aenean erat arcu morbi. Cursus faucibus nunc nisl netus morbi vel porttitor vitae ut. Amet vitae fames senectus vitae."
-    links:
-      - text: Meet our investors and advisors
-        url: "#"
-    logos:
-      - identifier: a
-        image: "images/global/sample-logo.svg"
-        alt: "a"
-      - identifier: b
-      - identifier: c
-      - identifier: d
-      - identifier: e
-      - identifier: f
+      - text: "Our team is made up of experienced professionals who are passionate about real estate and dedicated to helping you achieve your goals. We bring a wealth of knowledge and expertise to every transaction, ensuring that you receive the highest level of service and support."
+    team:
+      - 
+        name: "Travis Pandos"
+        role: "Founder & CEO"
+        image: "images/team/travis_pandos.jpg"
+        bio: "Travis Pandos is the founder and CEO of Pandos Realty. With over 15 years of experience in real estate, Travis has a proven track record of success in buying, selling, and investing in properties. He is committed to providing exceptional service to his clients and helping them achieve their real estate goals."
+      - 
+        name: "Henry Chiu"
+        role: "Director of Acquisitions"
+        image: "images/team/henry_chiu.png"
+        bio: "Henry Chiu is the Director of Acquisitions at Pandos Realty. With a background in finance and real estate, Henry has a keen eye for identifying properties with potential for growth. He is dedicated to helping clients find the perfect property to meet their needs and achieve their investment goals."
+      - 
+        name: "David Iwata"
+        role: "Director of Renovations"
+        image: "images/team/david_iwata.jpg"
+        bio: "David Iwata is the Director of Renovations at Pandos Realty. With a background in construction and design, David oversees the renovation process from start to finish, ensuring that each property is transformed into a beautiful, modern home. He is committed to delivering high-quality work that exceeds client expectations."
+    # links:
+    #   - text: Meet our investors and advisors
+    #     url: "#"
+    # logos:
+    #   - identifier: a
+    #     image: "images/global/sample-logo.svg"
+    #     alt: "a"
+    #   - identifier: b
+    #   - identifier: c
+    #   - identifier: d
+    #   - identifier: e
+    #   - identifier: f
   p4:
     heading: "From the blog"
     content:
@@ -90,7 +106,7 @@ params:
   p5:
     heading: "Stay Up to Date"
     content:
-      - text: "Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique pellentesque."
+      - text: "I don't send a ton of emails, but when I do, they're worth reading."
     action: "#"
     label: "Email address"
     placeholder: "Enter your email"
@@ -113,51 +129,35 @@ params:
 
 menu:
   main:
-    - identifier: prose
-      name: Prose
-      url: /prose/
+    - identifier: team
+      name: Meet the Team
+      url: /team/
       weight: 10
-    - identifier: about
-      name: About
-      url: /about/
-      weight: 20
-    - identifier: categories
-      pre: dropdown
-      name: Categories
-      weight: 30
-    - identifier: dropdown
+    - identifier: services
       pre: complexdropdown
-      name: Dropdown
-      weight: 40
+      name: Services
+      url: /services/
+      weight: 20
     - identifier: contact
       name: Contact
       url: /contact/
       weight: 50
-  categories:
-    - identifier: prose
-      name: Prose
-      url: /prose/
-      weight: 10
-    - identifier: about
-      name: About
-      url: /about/
-      weight: 20
-  dropdown:
+  services:
     - identifier: appearance
-      pre: stars # can be stars, comments or piechart
-      name: Appearance
+      pre: buy # can be buy, sell or invest
+      name: Buying
       post: "Easy customization"
       url: "#"
       weight: 10
     - identifier: comments
-      pre: comments # can be stars, comments or piechart
-      name: Comments
+      pre: sell # can be buy, sell or invest
+      name: Selling
       post: "Check your latest comments"
       url: "#"
       weight: 20
     - identifier: analytics
-      pre: piechart # can be stars, comments or piechart
-      name: Analytics
+      pre: invest # can be buy, sell or invest
+      name: Investing
       post: "Take a look at your statistics"
       url: "#"
       weight: 30
