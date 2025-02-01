@@ -1,13 +1,13 @@
 ---
-title: "News Post 1"
+title: "Close the Deal"
 date: 2022-05-18T11:10:36+08:00
 draft: false
 language: en
-featured_image: ../assets/images/featured/featured-img-placeholder.png
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus, odio nec venenatis lacinia, lacus lectus varius nisi, in tristique mi purus ut libero.
+featured_image: ../assets/images/featured/1.jpg
+summary: summary test and it's working
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus, odio nec venenatis lacinia, lacus lectus varius nisi, in tristique mi purus ut libero. Vestibulum vel convallis felis. Ut finibus lorem vestibulum lobortis rhoncus.
-author: TailBliss
-authorimage: ../assets/images/global/author.webp
+author: Travis Pandos
+authorimage: ../assets/images/team/travis_pandos.jpg
 categories: News
 tags: News
 ---

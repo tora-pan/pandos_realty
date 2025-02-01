@@ -57,7 +57,7 @@ params:
 
   p1:
     heading: "Our mission"
-    image: "images/pages/our-mission.png"
+    image: "images/pages/4.jpg"
     content:
       - text: "Our mission is to revitalize communities by transforming distressed properties into modern, desirable homes. We believe that every neighborhood has the potential for renewal, and through our efforts, we breathe new life into overlooked properties, turning them into valuable assets for homeowners and the community."
       - text: "Through strategic acquisitions, we identify properties with untapped potential and implement high-impact renovations that enhance both functionality and aesthetics. Our approach combines expert craftsmanship with market insights to ensure that each home meets the highest standards of quality and design."
@@ -76,7 +76,7 @@ params:
         name: "Travis Pandos"
         role: "Founder & CEO"
         image: "images/team/travis_pandos.jpg"
-        bio: "Travis Pandos is the founder and CEO of Pandos Realty. With over 15 years of experience in real estate, Travis has a proven track record of success in buying, selling, and investing in properties. He is committed to providing exceptional service to his clients and helping them achieve their real estate goals."
+        bio: "Travis Pandos has spent nearly 15 years bridging the gap between technology and people, leveraging expertise in Japanese, software engineering, and client-facing roles to drive innovation. Now in the real estate industry, Travis brings the same analytical mindset, problem-solving skills, and dedication to client success to identifying high-value properties, executing strategic renovations, and delivering exceptional investment opportunities."
       - 
         name: "Henry Chiu"
         role: "Director of Acquisitions"
@@ -87,22 +87,10 @@ params:
         role: "Director of Renovations"
         image: "images/team/david_iwata.jpg"
         bio: "David Iwata is the Director of Renovations at Pandos Realty. With a background in construction and design, David oversees the renovation process from start to finish, ensuring that each property is transformed into a beautiful, modern home. He is committed to delivering high-quality work that exceeds client expectations."
-    # links:
-    #   - text: Meet our investors and advisors
-    #     url: "#"
-    # logos:
-    #   - identifier: a
-    #     image: "images/global/sample-logo.svg"
-    #     alt: "a"
-    #   - identifier: b
-    #   - identifier: c
-    #   - identifier: d
-    #   - identifier: e
-    #   - identifier: f
   p4:
     heading: "From the blog"
     content:
-      - text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa libero labore natus atque, ducimus sed."
+      - text: "See what we've been up to lately."
   p5:
     heading: "Stay Up to Date"
     content:
