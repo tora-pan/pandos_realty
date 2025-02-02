@@ -95,9 +95,10 @@ params:
     heading: "Stay Up to Date"
     content:
       - text: "I don't send a ton of emails, but when I do, they're worth reading."
-    action: "#"
+    action: "https://formsubmit.co/travis@pandosrealty.com"
     label: "Email address"
     placeholder: "Enter your email"
+    namePlaceholder: "Enter your name"
     button: "Notify me"
 
   social_media:
