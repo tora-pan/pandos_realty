@@ -96,7 +96,9 @@ params:
     content:
       - text: "I don't send a ton of emails, but when I do, they're worth reading."
     action: "https://formsubmit.co/travis@pandosrealty.com"
-    label: "Email address"
+    emailLabel: "Email address"
+    nameLabel: "Name"
+    optionsLabel: "I'm interested in:"
     placeholder: "Enter your email"
     namePlaceholder: "Enter your name"
     button: "Notify me"

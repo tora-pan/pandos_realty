@@ -51,9 +51,8 @@
                     <div class="overflow-hidden shadow-xl rounded-2xl">
                         {{ $p1image := resources.Get .Site.Params.P1.Image }}
                         {{ with $p1image }}
-                        {{/*  {{ with .Resize (printf "%dx%d webp q90" .Width .Height) }}  */}}
-                       {{ $postimage := (.Fit "900x900 webp q90").RelPermalink }} 
-                        <img imgh src="{{ $postimage }}" width={{.Width}} height={{.Height}} alt="P1" loading="lazy" />
+                       {{ $postimage := (.Fit "400x400 webp q90").RelPermalink }} 
+                        <img imgh src="{{ $p1image.RelPermalink }}" class="h-[575px] w-[575px]" alt="P1" loading="lazy" />
                         {{ end }}
                         {{/*  {{ end }}  */}}
                     </div>
@@ -230,9 +229,9 @@
                         {{ with .image }}
                         {{ with resources.Get . }}
                         {{ $postimage := (.Fit "400x400 webp q90").RelPermalink }}
-                        <div class="flex flex-col rounded-lg shadow-lg bg-gray-50 dark:bg-gray-900">
+                        <div class="flex flex-col rounded-lg shadow-lg bg-gray-50 dark:bg-gray-900 ml-4">
                             <a href="{{.Permalink}}">
-                                    <img src="{{ $postimage }}"     class="rounded-xl object-contain" 
+                                    <img src="{{ $postimage }}"     class="rounded-xl object-contain h-96 w-96" 
  loading="lazy" alt="{{ .Title }}" width={{.Width}} height={{.Height}} />
                                     
                                     {{ end }}
@@ -350,18 +349,24 @@
                         </p>
                         {{ end }}
                     </div>
-                    <form action="{{ .Site.Params.P5.Action }}" method="POST" class="mt-4 sm:mx-auto sm:flex sm:max-w-lg flex-col">
+                    <form action="{{ .Site.Params.P5.Action }}" method="POST" class="mt-4 sm:mx-auto sm:flex sm:max-w-lg flex-col my-[100px]">
                         <div class="flex-1 min-w-0">
-                            <label for="cta-name" class="sr-only">{{ .Site.Params.P5.Label }}</label>
-                            <input id="cta-name" name="name" type="name" class="block w-full px-5 py-3 text-base text-gray-900 placeholder-gray-500 border border-transparent rounded-md shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-primary-500 mb-4" placeholder="{{ .Site.Params.P5.namePlaceholder }}">
-                            <label for="cta-email" class="sr-only">{{ .Site.Params.P5.Label }}</label>
-                            <input id="cta-email" name="email" type="email" class="block w-full px-5 py-3 text-base text-gray-900 placeholder-gray-500 border border-transparent rounded-md shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-primary-500 mb-4" placeholder="{{ .Site.Params.P5.Placeholder }}">
-                        </div>
-                        <div class="mt-4 sm:mt-0 sm:ml-0">
-                            <button type="submit" class="block w-full py-3 mt-3 text-base font-medium text-white bg-gray-900 border border-transparent rounded-md shadow hover:bg-black focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-primary-500 sm:px-10">
-                                {{ .Site.Params.P5.Button }}
-                            </button>
-                        </div>
+                            <label for="cta-name" class="sr-only">{{ .Site.Params.P5.NameLabel }}</label>
+                            <input id="cta-name" name="name" autocomplete="" type="name" class="block w-full px-5 py-3 text-base text-gray-900 placeholder-gray-500 border border-transparent rounded-md shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-primary-500 mb-4" placeholder="{{ .Site.Params.P5.namePlaceholder }}">
+                            <label for="cta-email" class="sr-only">{{ .Site.Params.P5.EmailLabel }}</label>
+                            <input id="cta-email" name="email" autocomplete="email" type="email" class="block w-full px-5 py-3 text-base text-gray-900 placeholder-gray-500 border border-transparent rounded-md shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-primary-500 mb-4" placeholder="{{ .Site.Params.P5.Placeholder }}">
+                            {{/*  three option select for buy/sell/invest  */}}
+                            <label for="cta-select" class="text-primary-100">{{ .Site.Params.P5.OptionsLabel }}</label>
+                            <select id="cta-select" name="select" class="block w-full px-5 py-3 text-base text-gray-900 placeholder-gray-500 border border-transparent rounded-md shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-primary-500 mb-4">
+                                <option value="buy">Buying 🛍️</option>
+                                <option value="sell">Selling 💸</option>
+                                <option value="invest">Investing 📊💸</option>
+                                <option value="other">Waiting for a Housing Market Crash 📉🔥</option>
+                                <option value="otherFunny">Building a Pillow Fort Instead🤣</option>
+                                    <button type="submit" class="block w-full py-3 mt-3 text-base font-medium text-white bg-gray-900 border border-transparent rounded-md shadow hover:bg-black focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-primary-500 sm:px-10">
+                                        {{ .Site.Params.P5.Button }}
+                                    </button>
+                            </div>
                     </form>
                 </div>
             </div>
